@@ -16,6 +16,12 @@ class ProductListPage extends StatelessWidget {
         title: const Text('Product'),
         backgroundColor: Colors.black,
         foregroundColor: Colors.white,
+        actions: [
+          IconButton(
+            onPressed: () => Get.toNamed(AppRoutes.cart),
+            icon: Icon(Icons.shop),
+          ),
+        ],
       ),
 
       body: Obx(() {
@@ -87,7 +93,7 @@ class ProductListPage extends StatelessWidget {
                               const Icon(
                                 Icons.currency_bitcoin,
                                 size: 14,
-                                color: Colors.black,
+                                color: Colors.white,
                               ),
                               Text(
                                 ' $price',
