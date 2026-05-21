@@ -19,7 +19,7 @@ class LoginPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Icon(Icons.movie, size: 80, color: Colors.deepOrange),
+              const Icon(Icons.shopping_bag_sharp, size: 80, color: Colors.deepOrange),
               const Text(
                 'ShopPedia  ',
                 style: TextStyle(

@@ -72,7 +72,7 @@ class CartPage extends StatelessWidget {
                               const Icon(
                                 Icons.currency_bitcoin,
                                 size: 14,
-                                color: Colors.black,
+                                color: Colors.white,
                               ),
                               Text(
                                 ' ${cart.price}',

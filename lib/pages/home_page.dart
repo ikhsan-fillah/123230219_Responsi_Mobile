@@ -13,13 +13,13 @@ class ProductListPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        title: const Text('Product'),
+        title: const Text('Shopedia'),
         backgroundColor: Colors.black,
         foregroundColor: Colors.white,
         actions: [
           IconButton(
             onPressed: () => Get.toNamed(AppRoutes.cart),
-            icon: Icon(Icons.shop),
+            icon: Icon(Icons.shopping_bag_sharp),
           ),
         ],
       ),

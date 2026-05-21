@@ -25,7 +25,7 @@ class DetailPage extends StatelessWidget {
         actions: [
           IconButton(
             onPressed: () => Get.toNamed(AppRoutes.cart),
-            icon: Icon(Icons.shop),
+            icon: Icon(Icons.shopping_bag_sharp),
           ),
         ],
       ),
